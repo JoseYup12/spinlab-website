@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpinLab | Lavandería Industrial</title>
+<meta name="description" content="SpinLab — Lavandería industrial de alto rendimiento. Lavado, planchado y gestión textil para hoteles, restaurantes, clínicas e industria.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="preloader"><div class="loader-blob"></div></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="sl-nav" id="slNav">
+  <div class="container sl-nav-inner">
+    <a href="#inicio" class="sl-logo">
+      <img src="assets/spinlab-logo-white.png" alt="SpinLab - Lavandería Industrial" class="sl-logo-img sl-logo-white">
+      <img src="assets/spinlab-logo.png" alt="SpinLab - Lavandería Industrial" class="sl-logo-img sl-logo-color">
+    </a>
+
+    <nav class="sl-menu d-none d-lg-flex" id="slMenu">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <a href="#contacto" class="btn sl-btn sl-btn-primary d-none d-lg-inline-flex">Cotizar servicio</a>
+
+    <button class="sl-burger d-lg-none" id="slBurger" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="sl-menu-mobile" id="slMenuMobile">
+  <a href="#inicio">Inicio</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#proceso">Proceso</a>
+  <a href="#nosotros">Nosotros</a>
+  <a href="#contacto">Contacto</a>
+  <a href="#contacto" class="btn sl-btn sl-btn-primary mt-3">Cotizar servicio</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="sl-hero" id="inicio">
+  <div class="sl-hero-photo">
+    <img src="assets/hero-bg.jpg" alt="">
+  </div>
+  <div class="sl-hero-blob sl-blob-1"></div>
+  <div class="sl-hero-blob sl-blob-2"></div>
+  <div class="sl-hero-ring"></div>
+
+  <div class="container sl-hero-grid">
+    <div class="sl-hero-copy">
+      <span class="sl-tag reveal">LAVANDERÍA INDUSTRIAL</span>
+      <h1 class="reveal">Textiles impecables,<br><span class="sl-text-grad">ciclo tras ciclo.</span></h1>
+      <p class="reveal">
+        En SpinLab procesamos grandes volúmenes de ropa, blancos y uniformes
+        con tecnología industrial, higiene certificada y tiempos de entrega
+        que tu operación puede confiar.
+      </p>
+      <div class="sl-hero-actions reveal">
+        <a href="#contacto" class="btn sl-btn sl-btn-primary">Solicita una cotización</a>
+        <a href="#servicios" class="btn sl-btn sl-btn-ghost">Ver servicios <span class="arrow">→</span></a>
+      </div>
+      <div class="sl-hero-perk reveal">
+        <span class="sl-hero-perk-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M2 17V9l3-3h6l4 4h5v7" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M2 17h1.5M13 17h6" stroke="currentColor" stroke-width="1.4"/><circle cx="7.5" cy="18" r="1.8" stroke="currentColor" stroke-width="1.4"/><circle cx="17" cy="18" r="1.8" stroke="currentColor" stroke-width="1.4"/></svg>
+        </span>
+        <span>Recolección y entrega a domicilio <strong>sin costo</strong></span>
+      </div>
+    </div>
+
+    <div class="sl-hero-visual reveal">
+      <div class="sl-drum-card">
+        <span class="sl-washer-status"><i></i>Lavando ahora</span>
+
+        <div class="sl-washer">
+          <div class="sl-washer-ring"></div>
+          <div class="sl-washer-door">
+            <div class="sl-washer-glass">
+              <div class="sl-washer-water"></div>
+              <div class="sl-washer-clothes">
+                <span class="sl-cloth c1"></span>
+                <span class="sl-cloth c2"></span>
+                <span class="sl-cloth c3"></span>
+                <span class="sl-cloth c4"></span>
+              </div>
+              <div class="sl-washer-bubbles">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <div class="sl-washer-shine"></div>
+            </div>
+            <div class="sl-washer-bolts">
+              <i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+          <div class="sl-washer-panel">
+            <span class="sl-washer-led"></span>
+            <span class="sl-washer-led"></span>
+            <span class="sl-washer-led"></span>
+          </div>
+        </div>
+
+        <div class="sl-drum-tag">
+          <strong>+100%</strong>
+          <span>Ciclos monitoreados</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sl-hero-stats">
+    <div class="container sl-stats-grid reveal">
+      <div class="sl-stat">
+        <span class="sl-stat-icon">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.4"/><path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <div class="sl-stat-top"><span class="sl-stat-num" data-count="24">0</span><span class="sl-stat-suffix">/7</span></div>
+        <p>Operación continua</p>
+      </div>
+      <div class="sl-stat">
+        <span class="sl-stat-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 20V13M12 20V8M19 20v-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M4 20h16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        </span>
+        <div class="sl-stat-top"><span class="sl-stat-num" data-count="100">0</span><span class="sl-stat-suffix">%</span></div>
+        <p>Trazabilidad de carga</p>
+      </div>
+      <div class="sl-stat">
+        <span class="sl-stat-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 4h8l2 4-4 2v10h-4V10L6 8l2-4Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+        </span>
+        <div class="sl-stat-top"><span class="sl-stat-suffix">+</span><span class="sl-stat-num" data-count="3000" data-format="thousands">0</span></div>
+        <p>Prendas entregadas semanalmente</p>
+      </div>
+      <div class="sl-stat">
+        <span class="sl-stat-icon">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="8.5" cy="8.2" r="2.4" stroke="currentColor" stroke-width="1.3"/><circle cx="16" cy="9" r="2" stroke="currentColor" stroke-width="1.3"/><path d="M3.5 18c0-2.9 2.3-5 5-5s5 2.1 5 5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M14 13.3c2.3.2 4 2.1 4 4.7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        </span>
+        <div class="sl-stat-top"><span class="sl-stat-num sl-stat-static">Hoteles · Salud · Industria</span></div>
+        <p>Sectores que atendemos</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="sl-marquee">
+  <div class="sl-marquee-track">
+    <span>LAVADO INDUSTRIAL</span><i></i>
+    <span>ROPA HOTELERA</span><i></i>
+    <span>UNIFORMES CORPORATIVOS</span><i></i>
+    <span>PLANCHADO Y ACABADO</span><i></i>
+    <span>RECOLECCIÓN Y ENTREGA</span><i></i>
+    <span>LAVADO INDUSTRIAL</span><i></i>
+    <span>ROPA HOTELERA</span><i></i>
+    <span>UNIFORMES CORPORATIVOS</span><i></i>
+    <span>PLANCHADO Y ACABADO</span><i></i>
+    <span>RECOLECCIÓN Y ENTREGA</span><i></i>
+  </div>
+</div>
+
+<!-- ============ SERVICIOS ============ -->
+<section class="sl-services" id="servicios">
+  <div class="sl-services-bubbles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <div class="container">
+    <div class="row align-items-end sl-section-head reveal">
+      <div class="col-lg-7">
+        <span class="sl-eyebrow">LO QUE HACEMOS</span>
+        <h2>Soluciones textiles a escala industrial</h2>
+      </div>
+      <div class="col-lg-5">
+        <p class="sl-section-sub">Cinco líneas de servicio diseñadas para adaptarse al ritmo de tu operación, sin importar el volumen.</p>
+      </div>
+    </div>
+
+    <div class="sl-service-list">
+
+      <div class="sl-service-row active reveal" data-num="01" style="transition-delay:.05s">
+        <button type="button" class="sl-service-head">
+          <span class="sl-service-num">01</span>
+          <span class="sl-service-icon-sm">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="7.2" stroke="currentColor" stroke-width="1.3"/><path d="M12 6.5c2.5 1.3 2.5 4.2 0 5.5-2.5 1.3-2.5 4.2 0 5.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          </span>
+          <span class="sl-service-title">Lavado Industrial</span>
+          <span class="sl-service-toggle"></span>
+        </button>
+        <div class="sl-service-body">
+          <div class="sl-service-body-inner">
+            <span class="sl-service-subtitle">Soluciones de lavado a gran escala</span>
+            <p>Procesamos altos volúmenes de textiles con protocolos diseñados para lograr limpieza profunda, higiene y consistencia en cada carga.</p>
+            <ul class="sl-service-bullets">
+              <li>Procesos adaptados a cada tipo de textil</li>
+              <li>Manejo eficiente de altos volúmenes</li>
+              <li>Control de calidad en cada etapa</li>
+            </ul>
+            <a href="#contacto" class="sl-service-link">Solicitar información <span>→</span></a>
+            <p class="sl-service-tagline">Procesos eficientes. Textiles impecables. Operaciones que no se detienen.</p>
+          </div>
+        </div>
+        <span class="sl-service-ghost">01</span>
+      </div>
+
+      <div class="sl-service-row reveal" data-num="02" style="transition-delay:.12s">
+        <button type="button" class="sl-service-head">
+          <span class="sl-service-num">02</span>
+          <span class="sl-service-icon-sm">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 19V8.5A2.5 2.5 0 0 1 6.5 6h11A2.5 2.5 0 0 1 20 8.5V19" stroke="currentColor" stroke-width="1.3"/><path d="M4 19h16M8 6V4.5A1.5 1.5 0 0 1 9.5 3h5A1.5 1.5 0 0 1 16 4.5V6" stroke="currentColor" stroke-width="1.3"/></svg>
+          </span>
+          <span class="sl-service-title">Lavandería Hotelera</span>
+          <span class="sl-service-toggle"></span>
+        </button>
+        <div class="sl-service-body">
+          <div class="sl-service-body-inner">
+            <span class="sl-service-subtitle">Blancos impecables, listos para recibir a tus huéspedes</span>
+            <p>Cuidamos sábanas, fundas, toallas y demás blancos hoteleros para mantener los estándares de higiene, presentación y confort que tu operación necesita.</p>
+            <ul class="sl-service-bullets">
+              <li>Lavado especializado de blancos</li>
+              <li>Cuidado de fibras y textiles</li>
+              <li>Entrega limpia, ordenada y lista para uso</li>
+            </ul>
+            <a href="#contacto" class="sl-service-link">Solicitar información <span>→</span></a>
+            <p class="sl-service-tagline">Procesos eficientes. Textiles impecables. Operaciones que no se detienen.</p>
+          </div>
+        </div>
+        <span class="sl-service-ghost">02</span>
+      </div>
+
+      <div class="sl-service-row reveal" data-num="03" style="transition-delay:.19s">
+        <button type="button" class="sl-service-head">
+          <span class="sl-service-num">03</span>
+          <span class="sl-service-icon-sm">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M8 4h8l2 4-4 2v10h-4V10L6 8l2-4Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="sl-service-title">Uniformes Corporativos</span>
+          <span class="sl-service-toggle"></span>
+        </button>
+        <div class="sl-service-body">
+          <div class="sl-service-body-inner">
+            <span class="sl-service-subtitle">La imagen de tu equipo empieza en cada uniforme</span>
+            <p>Nos encargamos del lavado y cuidado de uniformes para que tu personal mantenga una presentación limpia, profesional y uniforme todos los días.</p>
+            <ul class="sl-service-bullets">
+              <li>Lavado según tipo de tela y uso</li>
+              <li>Tratamiento de manchas</li>
+              <li>Cuidado de color, forma y apariencia</li>
+            </ul>
+            <a href="#contacto" class="sl-service-link">Solicitar información <span>→</span></a>
+            <p class="sl-service-tagline">Procesos eficientes. Textiles impecables. Operaciones que no se detienen.</p>
+          </div>
+        </div>
+        <span class="sl-service-ghost">03</span>
+      </div>
+
+      <div class="sl-service-row reveal" data-num="04" style="transition-delay:.26s">
+        <button type="button" class="sl-service-head">
+          <span class="sl-service-num">04</span>
+          <span class="sl-service-icon-sm">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="4" width="14" height="16" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M8.5 9h7M8.5 13h7M8.5 17h4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          </span>
+          <span class="sl-service-title">Planchado y Acabado</span>
+          <span class="sl-service-toggle"></span>
+        </button>
+        <div class="sl-service-body">
+          <div class="sl-service-body-inner">
+            <span class="sl-service-subtitle">El detalle final que hace la diferencia</span>
+            <p>Cada prenda pasa por un proceso de acabado pensado para lograr una presentación pulcra, uniforme y profesional.</p>
+            <ul class="sl-service-bullets">
+              <li>Planchado y acabado especializado</li>
+              <li>Eliminación de arrugas</li>
+              <li>Prendas listas para almacenar o utilizar</li>
+            </ul>
+            <a href="#contacto" class="sl-service-link">Solicitar información <span>→</span></a>
+            <p class="sl-service-tagline">Procesos eficientes. Textiles impecables. Operaciones que no se detienen.</p>
+          </div>
+        </div>
+        <span class="sl-service-ghost">04</span>
+      </div>
+
+      <div class="sl-service-row reveal" data-num="05" style="transition-delay:.33s">
+        <button type="button" class="sl-service-head">
+          <span class="sl-service-num">05</span>
+          <span class="sl-service-icon-sm">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 12h4l2-6 4 12 2-6h6" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="sl-service-title-wrap">
+            <span class="sl-service-title">Recolección y Entrega</span>
+            <span class="sl-service-badge">Sin costo</span>
+          </span>
+          <span class="sl-service-toggle"></span>
+        </button>
+        <div class="sl-service-body">
+          <div class="sl-service-body-inner">
+            <span class="sl-service-subtitle">Nosotros nos encargamos de la logística, sin costo adicional</span>
+            <p>Coordinamos la recolección y entrega de tus textiles directamente en tu domicilio o local, para que tu operación pueda continuar sin interrupciones y sin preocuparse por traslados. Este servicio de transporte está incluido, sin ningún costo extra para ti.</p>
+            <ul class="sl-service-bullets">
+              <li>Recolección y entrega a domicilio totalmente gratis</li>
+              <li>Rutas programadas según tu ubicación</li>
+              <li>Servicio adaptado al volumen y frecuencia de cada cliente</li>
+            </ul>
+            <a href="#contacto" class="sl-service-link">Solicitar información <span>→</span></a>
+            <p class="sl-service-tagline">Procesos eficientes. Textiles impecables. Operaciones que no se detienen.</p>
+          </div>
+        </div>
+        <span class="sl-service-ghost">05</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESO ============ -->
+<section class="sl-process" id="proceso">
+  <div class="sl-process-blob"></div>
+  <div class="container">
+    <div class="sl-section-head sl-section-head--light reveal">
+      <span class="sl-eyebrow">CÓMO TRABAJAMOS</span>
+      <h2>Un ciclo simple, pensado para tu operación</h2>
+    </div>
+
+    <div class="sl-process-track">
+      <div class="sl-process-step reveal">
+        <span class="sl-process-node"><span class="sl-process-badge">01</span></span>
+        <div class="sl-process-card">
+          <span class="sl-process-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M2 17V9l3-3h6l4 4h5v7" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M2 17h1.5M13 17h6" stroke="currentColor" stroke-width="1.3"/><circle cx="7.5" cy="18" r="1.8" stroke="currentColor" stroke-width="1.3"/><circle cx="17" cy="18" r="1.8" stroke="currentColor" stroke-width="1.3"/></svg>
+          </span>
+          <h3>Recolección</h3>
+          <p>Recogemos tu carga textil directamente en tu domicilio o local, sin ningún costo de transporte, según la ruta y frecuencia acordada.</p>
+        </div>
+      </div>
+      <div class="sl-process-step reveal">
+        <span class="sl-process-node"><span class="sl-process-badge">02</span></span>
+        <div class="sl-process-card">
+          <span class="sl-process-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16l-6 8v6l-4 2v-8L4 4Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Clasificación</h3>
+          <p>Separamos por tipo de tejido, color y nivel de suciedad para un lavado óptimo.</p>
+        </div>
+      </div>
+      <div class="sl-process-step reveal">
+        <span class="sl-process-node"><span class="sl-process-badge">03</span></span>
+        <div class="sl-process-card">
+          <span class="sl-process-icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="13" r="6.5" stroke="currentColor" stroke-width="1.3"/><circle cx="12" cy="13" r="3.4" stroke="currentColor" stroke-width="1.2"/><path d="M8 5.5h8M6 4h2M16 4h2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Lavado industrial</h3>
+          <p>Ciclos validados con dosificación controlada de detergentes e higienizantes.</p>
+        </div>
+      </div>
+      <div class="sl-process-step reveal">
+        <span class="sl-process-node"><span class="sl-process-badge">04</span></span>
+        <div class="sl-process-card">
+          <span class="sl-process-icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="14.5" width="14" height="4" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="6" y="9.5" width="12" height="4" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="7" y="4.5" width="10" height="4" rx="1" stroke="currentColor" stroke-width="1.3"/></svg>
+          </span>
+          <h3>Acabado</h3>
+          <p>Secado, planchado y doblado con estándares de presentación consistentes.</p>
+        </div>
+      </div>
+      <div class="sl-process-step reveal">
+        <span class="sl-process-node"><span class="sl-process-badge">05</span></span>
+        <div class="sl-process-card">
+          <span class="sl-process-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 8.5 12 4l9 4.5-9 4.5-9-4.5Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M3 8.5V16l9 4.5 9-4.5V8.5" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M9.2 12.2 11 14l3.5-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Entrega</h3>
+          <p>Devolvemos tu textil listo para usarse, en el tiempo acordado.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NOSOTROS ============ -->
+<section class="sl-about" id="nosotros">
+  <div class="container sl-about-grid">
+    <div class="sl-about-media reveal">
+      <div class="sl-media-frame sl-carousel" id="slCarousel">
+        <div class="sl-carousel-track">
+          <div class="sl-carousel-slide is-active">
+            <img src="assets/gallery-1.jpg" alt="Planta de SpinLab - lavandería industrial">
+          </div>
+          <div class="sl-carousel-slide">
+            <img src="assets/gallery-2.jpg" alt="Operador de SpinLab preparando carga textil">
+          </div>
+        </div>
+        <div class="sl-carousel-dots">
+          <button type="button" class="sl-carousel-dot is-active" aria-label="Foto 1"></button>
+          <button type="button" class="sl-carousel-dot" aria-label="Foto 2"></button>
+        </div>
+      </div>
+      <div class="sl-media-badge">
+        <strong>360°</strong>
+        <p>Visión operativa de tu carga textil</p>
+      </div>
+    </div>
+
+    <div class="sl-about-content">
+      <span class="sl-eyebrow reveal">QUIÉNES SOMOS</span>
+      <h2 class="reveal">El aliado industrial<br>de tu operación textil.</h2>
+
+      <div class="sl-about-mini-stats reveal">
+        <div><strong>+10 años</strong><span>Experiencia en lavandería</span></div>
+        <div><strong>Alta capacidad</strong><span>Procesamiento industrial</span></div>
+        <div><strong>Servicio B2B</strong><span>Hoteles, restaurantes, clínicas y empresas</span></div>
+      </div>
+
+      <p class="reveal">
+        En SpinLab combinamos más de 10 años de experiencia en lavandería con
+        tecnología industrial, procesos estandarizados y capacidad para atender
+        operaciones de alto volumen.
+      </p>
+      <p class="reveal">
+        Trabajamos con hoteles, restaurantes, clínicas, empresas e instituciones
+        que necesitan un servicio confiable, higiénico y consistente, con atención
+        cercana, trazabilidad y tiempos de entrega claros.
+      </p>
+
+      <ul class="sl-check-list reveal">
+        <li>+10 años de experiencia en lavandería</li>
+        <li>Equipos de alta capacidad industrial</li>
+        <li>Procesos higiénicos y estandarizados</li>
+        <li>Recolección y entrega a domicilio sin costo</li>
+        <li>Atención directa y seguimiento personalizado</li>
+      </ul>
+
+      <a href="#contacto" class="btn sl-btn sl-btn-dark reveal">Conoce más sobre SpinLab</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="sl-cta">
+  <div class="container sl-cta-inner reveal">
+    <div class="sl-cta-copy">
+      <span class="sl-eyebrow sl-eyebrow--onred">¿LISTO PARA OPTIMIZAR TU LAVANDERÍA?</span>
+      <h2>Cotiza tu servicio hoy mismo</h2>
+      <p>Cuéntanos tu volumen y tipo de textil, te proponemos el plan ideal.</p>
+    </div>
+    <a href="#contacto" class="btn sl-btn sl-btn-dark sl-btn-lg">Contáctanos ahora</a>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="sl-contact" id="contacto">
+  <div class="container sl-contact-grid">
+    <div class="sl-contact-info reveal">
+      <span class="sl-eyebrow">CONTÁCTANOS</span>
+      <h2>Hablemos de tu próximo ciclo de lavado</h2>
+      <p class="sl-section-sub">Escríbenos y te asesoramos sobre el mejor plan para tu volumen textil.</p>
+
+      <div class="sl-info-list">
+        <div class="sl-info-item">
+          <span class="sl-info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 5.5A2.5 2.5 0 0 1 5.5 3h1.6a1 1 0 0 1 .95.68l1.2 3.6a1 1 0 0 1-.4 1.13L7 9.9a12 12 0 0 0 6.1 6.1l1.5-1.85a1 1 0 0 1 1.13-.4l3.6 1.2a1 1 0 0 1 .68.95v1.6A2.5 2.5 0 0 1 17.5 20 14.5 14.5 0 0 1 3 5.5Z" stroke="currentColor" stroke-width="1.3"/></svg>
+          </span>
+          <div><span>Teléfono</span><p><a href="tel:+50231456662">3145-6662</a></p></div>
+        </div>
+        <div class="sl-info-item">
+          <span class="sl-info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3.5 6.5h17v11h-17v-11Z" stroke="currentColor" stroke-width="1.3"/><path d="M3.5 6.5 12 13l8.5-6.5" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          </span>
+          <div><span>Correo</span><p><a href="mailto:info@spinlab.gt">info@spinlab.gt</a></p></div>
+        </div>
+        <div class="sl-info-item">
+          <span class="sl-info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z" stroke="currentColor" stroke-width="1.3"/><circle cx="12" cy="9.5" r="2.3" stroke="currentColor" stroke-width="1.3"/></svg>
+          </span>
+          <div><span>Ubicación</span><p>Bodega 15, Ofibodegas Vista Hermosa II<br>21 avenida "A" 0-93, Zona 15, Ciudad de Guatemala</p></div>
+        </div>
+      </div>
+
+      <div class="sl-map-frame">
+        <iframe
+          src="https://maps.google.com/maps?q=21%20avenida%20%22A%22%200-93%2C%20Zona%2015%2C%20Vista%20Hermosa%20II%2C%20Ciudad%20de%20Guatemala&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación de SpinLab"></iframe>
+      </div>
+    </div>
+
+    <form class="sl-contact-form reveal" id="slContactForm">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label for="slNombre" class="form-label">Nombre completo</label>
+          <input type="text" class="form-control" id="slNombre" required placeholder="Tu nombre">
+        </div>
+        <div class="col-md-6">
+          <label for="slEmpresa" class="form-label">Empresa</label>
+          <input type="text" class="form-control" id="slEmpresa" placeholder="Nombre de tu empresa">
+        </div>
+        <div class="col-md-6">
+          <label for="slEmail" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="slEmail" required placeholder="tucorreo@ejemplo.com">
+        </div>
+        <div class="col-md-6">
+          <label for="slTelefono" class="form-label">Teléfono</label>
+          <input type="tel" class="form-control" id="slTelefono" placeholder="Tu número de contacto">
+        </div>
+        <div class="col-12">
+          <label for="slServicio" class="form-label">Tipo de servicio</label>
+          <select id="slServicio" class="form-select">
+            <option>Lavado Industrial</option>
+            <option>Lavandería Hotelera</option>
+            <option>Uniformes Corporativos</option>
+            <option>Planchado y Acabado</option>
+            <option>Recolección y Entrega</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <label for="slMensaje" class="form-label">Cuéntanos sobre tu volumen</label>
+          <textarea id="slMensaje" class="form-control" rows="4" required placeholder="Tipo de textil, volumen aproximado, frecuencia..."></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn sl-btn sl-btn-primary w-100">Enviar solicitud</button>
+          <p class="sl-form-note" id="slFormNote"></p>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="sl-footer">
+  <div class="container sl-footer-grid">
+    <div class="sl-footer-brand">
+      <a href="#inicio" class="sl-logo">
+        <img src="assets/spinlab-logo-white.png" alt="SpinLab - Lavandería Industrial" class="sl-logo-img">
+      </a>
+      <p>Lavandería industrial de alto rendimiento para hoteles, salud e industria.</p>
+    </div>
+
+    <div class="sl-footer-col">
+      <h5>Navegación</h5>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+
+    <div class="sl-footer-col">
+      <h5>Servicios</h5>
+      <a href="#servicios">Lavado Industrial</a>
+      <a href="#servicios">Lavandería Hotelera</a>
+      <a href="#servicios">Uniformes</a>
+    </div>
+
+    <div class="sl-footer-col">
+      <h5>Contacto</h5>
+      <a href="tel:+50231456662">3145-6662</a>
+      <a href="mailto:info@spinlab.gt">info@spinlab.gt</a>
+    </div>
+  </div>
+  <div class="container sl-footer-bottom">
+    <p>&copy; <span id="slYear"></span> SpinLab — Lavandería Industrial. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<a href="#contacto" class="sl-fab" aria-label="Cotizar ahora">
+  <svg viewBox="0 0 24 24" fill="none"><path d="M3 12h4l2-6 4 12 2-6h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
